@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Agile Scrum Cards</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_agile_scrum_card_list">Agile Scrum Card List</string>
+    <string name="title_activity_display_card_value">Display Card Value</string>
+</resources>
