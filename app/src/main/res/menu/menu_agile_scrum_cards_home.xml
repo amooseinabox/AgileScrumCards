@@ -6,4 +6,10 @@
         android:showAsAction="always"
         android:icon="@drawable/ic_action_content_add_circle"
         android:title="New"/>
+    <item
+        android:id="@+id/action_time_boxing"
+        android:orderInCategory="000"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_action_alarm"
+        android:title="Time Boxing"/>
 </menu>

@@ -18,7 +18,6 @@ import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-import android.widget.Toast;
 import android.view.ContextMenu.ContextMenuInfo;
 import com.jonphilo.android.agilescrumcards.data.CardListsContract;
 import com.jonphilo.android.agilescrumcards.data.CardListsDbHelper;
@@ -131,6 +130,13 @@ public class AgileScrumCardsHome extends Activity {
             });
 
             builder.show();
+            return true;
+        }
+
+        if(id == R.id.action_time_boxing)
+        {
+            Intent intent = new Intent(getApplicationContext(), TimeBoxing.class);
+            startActivity(intent);
             return true;
         }
 
